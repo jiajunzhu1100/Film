@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    sv=[[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 400, 600)];
+    sv.contentSize=CGSizeMake(600, 2000);
+    [self.view addSubview:sv];
 }
 
 - (void)didReceiveMemoryWarning {
