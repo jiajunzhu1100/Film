@@ -15,6 +15,9 @@
 		1463FF1E1BBED7F600D49C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1463FF1C1BBED7F600D49C68 /* LaunchScreen.storyboard */; };
 		1463FF291BBED7F600D49C68 /* FilmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1463FF281BBED7F600D49C68 /* FilmTests.m */; };
 		1463FF341BBED7F700D49C68 /* FilmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1463FF331BBED7F700D49C68 /* FilmUITests.m */; };
+		1463FF481BBEDCCD00D49C68 /* OnSaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1463FF461BBEDCCD00D49C68 /* OnSaleViewController.m */; settings = {ASSET_TAGS = (); }; };
+		1463FF491BBEDCCD00D49C68 /* OnSaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1463FF471BBEDCCD00D49C68 /* OnSaleViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		1463FF4C1BBEE24500D49C68 /* gangjiong@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1463FF4B1BBEE24500D49C68 /* gangjiong@2x.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		1463FF2F1BBED7F700D49C68 /* FilmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1463FF331BBED7F700D49C68 /* FilmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilmUITests.m; sourceTree = "<group>"; };
 		1463FF351BBED7F700D49C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1463FF451BBEDCCD00D49C68 /* OnSaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnSaleViewController.h; sourceTree = "<group>"; };
+		1463FF461BBEDCCD00D49C68 /* OnSaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnSaleViewController.m; sourceTree = "<group>"; };
+		1463FF471BBEDCCD00D49C68 /* OnSaleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnSaleViewController.xib; sourceTree = "<group>"; };
+		1463FF4B1BBEE24500D49C68 /* gangjiong@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "gangjiong@2x.jpg"; path = "../../../../Downloads/gangjiong@2x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +108,7 @@
 		1463FF0D1BBED7F600D49C68 /* Film */ = {
 			isa = PBXGroup;
 			children = (
+				1463FF411BBEDBC500D49C68 /* HomePage */,
 				1463FF111BBED7F600D49C68 /* AppDelegate.h */,
 				1463FF121BBED7F600D49C68 /* AppDelegate.m */,
 				1463FF141BBED7F600D49C68 /* ViewController.h */,
@@ -117,6 +125,7 @@
 		1463FF0E1BBED7F600D49C68 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1463FF4A1BBEE1A400D49C68 /* image */,
 				1463FF0F1BBED7F600D49C68 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +147,26 @@
 				1463FF351BBED7F700D49C68 /* Info.plist */,
 			);
 			path = FilmUITests;
+			sourceTree = "<group>";
+		};
+		1463FF411BBEDBC500D49C68 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				1463FF451BBEDCCD00D49C68 /* OnSaleViewController.h */,
+				1463FF461BBEDCCD00D49C68 /* OnSaleViewController.m */,
+				1463FF471BBEDCCD00D49C68 /* OnSaleViewController.xib */,
+			);
+			name = HomePage;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1463FF4A1BBEE1A400D49C68 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				1463FF4B1BBEE24500D49C68 /* gangjiong@2x.jpg */,
+			);
+			name = image;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +277,8 @@
 			files = (
 				1463FF1E1BBED7F600D49C68 /* LaunchScreen.storyboard in Resources */,
 				1463FF1B1BBED7F600D49C68 /* Assets.xcassets in Resources */,
+				1463FF491BBEDCCD00D49C68 /* OnSaleViewController.xib in Resources */,
+				1463FF4C1BBEE24500D49C68 /* gangjiong@2x.jpg in Resources */,
 				1463FF191BBED7F600D49C68 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +306,7 @@
 			files = (
 				1463FF161BBED7F600D49C68 /* ViewController.m in Sources */,
 				1463FF131BBED7F600D49C68 /* AppDelegate.m in Sources */,
+				1463FF481BBEDCCD00D49C68 /* OnSaleViewController.m in Sources */,
 				1463FF101BBED7F600D49C68 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
