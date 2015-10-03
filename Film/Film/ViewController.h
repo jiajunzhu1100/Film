@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController{
-    UIScrollView *sv;
+    __weak IBOutlet UIScrollView *mscScrollView;
+    
+    
+    UIImageView *firstImage;
+    UIImageView *secondImage;
+    UIImageView *thirdImage;
 }
 
 
