@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "OnSaleViewController.h"
+
 @interface ViewController : UIViewController{
 <<<<<<< HEAD
     UIScrollView *sv;
+<<<<<<< HEAD
     OnSaleViewController *os;
 =======
     __weak IBOutlet UIScrollView *mscScrollView;
@@ -20,6 +21,8 @@
     UIImageView *secondImage;
     UIImageView *thirdImage;
 >>>>>>> master
+=======
+>>>>>>> parent of eb2b82b... 10-02-guo
 }
 
 
