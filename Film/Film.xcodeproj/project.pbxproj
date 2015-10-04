@@ -18,6 +18,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		1463FF481BBEDCCD00D49C68 /* OnSaleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1463FF461BBEDCCD00D49C68 /* OnSaleViewController.m */; settings = {ASSET_TAGS = (); }; };
 		1463FF491BBEDCCD00D49C68 /* OnSaleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1463FF471BBEDCCD00D49C68 /* OnSaleViewController.xib */; settings = {ASSET_TAGS = (); }; };
 		1463FF4C1BBEE24500D49C68 /* gangjiong@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1463FF4B1BBEE24500D49C68 /* gangjiong@2x.jpg */; settings = {ASSET_TAGS = (); }; };
@@ -26,6 +27,8 @@
 		1C9F873A1BBF762E00A0F692 /* Tab2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C9F87391BBF762E00A0F692 /* Tab2ViewController.m */; settings = {ASSET_TAGS = (); }; };
 		6BB08E2642F16F1C485C7D08 /* libPods-Film.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2C9C8E60D3791BD44C28C1 /* libPods-Film.a */; };
 >>>>>>> master
+=======
+>>>>>>> parent of eb2b82b... 10-02-guo
 =======
 >>>>>>> parent of eb2b82b... 10-02-guo
 =======
@@ -70,6 +73,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		1463FF451BBEDCCD00D49C68 /* OnSaleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnSaleViewController.h; sourceTree = "<group>"; };
 		1463FF461BBEDCCD00D49C68 /* OnSaleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnSaleViewController.m; sourceTree = "<group>"; };
 		1463FF471BBEDCCD00D49C68 /* OnSaleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnSaleViewController.xib; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 		40E33BBD4D8B77242852F13D /* Pods-Film.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Film.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Film/Pods-Film.debug.xcconfig"; sourceTree = "<group>"; };
 		BE2C9C8E60D3791BD44C28C1 /* libPods-Film.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Film.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 >>>>>>> master
+=======
+>>>>>>> parent of eb2b82b... 10-02-guo
 =======
 >>>>>>> parent of eb2b82b... 10-02-guo
 =======
@@ -167,10 +173,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				1463FF4A1BBEE1A400D49C68 /* image */,
 =======
 				1C9F86EF1BBF6DD900A0F692 /* imageSet */,
 >>>>>>> master
+=======
+>>>>>>> parent of eb2b82b... 10-02-guo
 =======
 >>>>>>> parent of eb2b82b... 10-02-guo
 =======
@@ -198,6 +207,7 @@
 			path = FilmUITests;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -238,6 +248,8 @@
 >>>>>>> master
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> parent of eb2b82b... 10-02-guo
 =======
 >>>>>>> parent of eb2b82b... 10-02-guo
 =======
