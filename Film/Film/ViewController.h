@@ -9,8 +9,17 @@
 #import <UIKit/UIKit.h>
 #import "OnSaleViewController.h"
 @interface ViewController : UIViewController{
+<<<<<<< HEAD
     UIScrollView *sv;
     OnSaleViewController *os;
+=======
+    __weak IBOutlet UIScrollView *mscScrollView;
+    
+    
+    UIImageView *firstImage;
+    UIImageView *secondImage;
+    UIImageView *thirdImage;
+>>>>>>> master
 }
 
 

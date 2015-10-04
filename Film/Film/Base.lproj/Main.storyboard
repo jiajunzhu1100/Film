@@ -1,27 +1,125 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ybu-FP-lPU">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Item 2-->
+        <scene sceneID="tJw-Vy-wxY">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="Cm8-f8-tOo" customClass="Tab2ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="BPI-Bk-3eZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="nRL-80-tdM"/>
                     </layoutGuides>
+<<<<<<< HEAD
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+=======
+                    <view key="view" contentMode="scaleToFill" id="7o2-nu-lEJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+>>>>>>> master
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+<<<<<<< HEAD
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="400" height="600"/>
+=======
+                    <tabBarItem key="tabBarItem" title="Item 2" id="Ql6-ha-Xzq"/>
+>>>>>>> master
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GJJ-Tf-rtp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="142" y="683"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="2JR-bS-DNA">
+            <objects>
+                <viewController id="vyo-e9-8j8" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0ft-Ye-VsZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="vsS-uJ-IWC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RY3-2n-qC1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1zd-VF-t9w">
+                                <rect key="frame" x="219" y="230" width="163" height="93"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="N9Y-am-8yI"/>
+                                    <constraint firstAttribute="width" constant="163" id="pl1-ba-xHY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="N9Y-am-8yI"/>
+                                        <exclude reference="pl1-ba-xHY"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="N9Y-am-8yI"/>
+                                        <include reference="pl1-ba-xHY"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="119" y="128" width="163" height="93"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="119" y="258" width="163" height="93"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1zd-VF-t9w" firstAttribute="top" secondItem="0ft-Ye-VsZ" secondAttribute="bottom" constant="188" id="mMG-ms-HFd"/>
+                            <constraint firstItem="1zd-VF-t9w" firstAttribute="leading" secondItem="RY3-2n-qC1" secondAttribute="leadingMargin" constant="99" id="pbf-b5-uUd"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="mMG-ms-HFd"/>
+                                <exclude reference="pbf-b5-uUd"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="mMG-ms-HFd"/>
+                                <include reference="pbf-b5-uUd"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="Ad0-IJ-Vo9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sHL-GA-lXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="142" y="22"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="fpR-Sw-iZF">
+            <objects>
+                <tabBarController id="Ybu-FP-lPU" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="CPd-sN-NGX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vyo-e9-8j8" kind="relationship" relationship="viewControllers" id="pp2-1e-u5l"/>
+                        <segue destination="Cm8-f8-tOo" kind="relationship" relationship="viewControllers" id="DZU-OH-Upe"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KZD-H7-SnE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-678" y="353"/>
         </scene>
     </scenes>
 </document>
