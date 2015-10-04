@@ -9,12 +9,23 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController{
+<<<<<<< HEAD
+    UIScrollView *sv;
+<<<<<<< HEAD
+<<<<<<< HEAD
+    OnSaleViewController *os;
+=======
     __weak IBOutlet UIScrollView *mscScrollView;
     
     
     UIImageView *firstImage;
     UIImageView *secondImage;
     UIImageView *thirdImage;
+>>>>>>> master
+=======
+>>>>>>> parent of eb2b82b... 10-02-guo
+=======
+>>>>>>> parent of eb2b82b... 10-02-guo
 }
 
 

@@ -13,13 +13,29 @@
                         <viewControllerLayoutGuide type="top" id="BPI-Bk-3eZ"/>
                         <viewControllerLayoutGuide type="bottom" id="nRL-80-tdM"/>
                     </layoutGuides>
+<<<<<<< HEAD
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+=======
                     <view key="view" contentMode="scaleToFill" id="7o2-nu-lEJ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+>>>>>>> master
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="600"/>
+=======
                     <tabBarItem key="tabBarItem" title="Item 2" id="Ql6-ha-Xzq"/>
+>>>>>>> master
+=======
+>>>>>>> parent of eb2b82b... 10-02-guo
+=======
+>>>>>>> parent of eb2b82b... 10-02-guo
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GJJ-Tf-rtp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
