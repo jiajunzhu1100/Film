@@ -22,12 +22,15 @@
     sv.contentSize=CGSizeMake(600, 2000);
     [self.view addSubview:sv];
 <<<<<<< HEAD
+<<<<<<< HEAD
     os=[[OnSaleViewController alloc]init];
     os.view.frame=CGRectMake(0, 300, 375, 400);
     [sv addSubview:os.view];
 =======
     
 >>>>>>> master
+=======
+>>>>>>> parent of eb2b82b... 10-02-guo
 =======
 >>>>>>> parent of eb2b82b... 10-02-guo
 }
